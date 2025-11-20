@@ -36,16 +36,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-	<a href="https://bankzitters.nl">bankzitters</a>
+	<a href="https://www.mocomuseum.com/nl/amsterdam/">Moco museum</a>
   
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="(images/home.page.screen.png)" width="375px" alt="Bovenste rand staat het logo en taal, tickets, menu opties. Vederd een video die automatisch afspeelt zonder geluid, wel kan je hem pauzeren. de titel is dat je een locatie kan kiezen en dan op andere paginas verder gaat.">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="tentoonstelling pagina. Met een titel en inleiding, daarna afbeeldingen met titels en het kan je door verwijzen naar nieuwe pagina's met meer informatie.">
  
 </details>
 
@@ -58,6 +58,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  De website voldoet niet aan de regel dat media niet automatisch mogen afspelen. De achtergrondvideo start meteen wanneer je de site opent, en dat mag eigenlijk niet. Het enige positieve is dat er in ieder geval geen geluid onder zit.
+  
+  Ook mis ik een duidelijke skip to main content-link. Die zou zichtbaar moeten worden wanneer je hem focust, maar ik heb hem nergens kunnen vinden.
+  
+  Daarnaast opent een van de links in een nieuw tabblad zonder dat de gebruiker daarvoor wordt gewaarschuwd. Je ziet het niet aan de link en een screenreader meldt het ook niet, wat niet toegankelijk is.
+  
+  High-contrast-modus wordt ook niet ondersteund door de website.
+  
+  Verder heb ik getest met prefers-reduced-motion: reduce, maar de animaties en de achtergrondvideo blijven gewoon actief. De site houdt dus geen rekening met gebruikers die gevoelig zijn voor beweging.
+  
+  De pauzeknop op de achtergrondvideo is wit, maar omdat de video zelf veel wisselt tussen lichte en donkere beelden, verandert de leesbaarheid steeds. Soms valt de knop bijna weg tegen de achtergrond, waardoor het contrast niet altijd voldoende is.
+  
+  Ook de roze linkteksten (zoals “Barcelona” en “Londen”) hebben te weinig contrast met de witte achtergrond. Hetzelfde geldt voor de grote roze heading “Tentoonstellingen in Amsterdam”; die haalt de vereiste contrastratio van 3:1 ook niet.
+  
 
 </details>
 
@@ -69,7 +83,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/readme-images/breakdown.jpg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
@@ -90,6 +104,23 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+
+   Ik twijfelde of ik een <address> element moest gebruiken voor de museumlocaties. Uiteindelijk heb ik hiervoor gekozen omdat dit semantisch beter past.
+   Bron: https://www.w3schools.com/tags/tag_address.asp
+
+  Ik heb mijn website in het Engels. mijn vraag is moet ik " <html lang="nl"> " veranderen naar "<html lang="en">"
+  <img src="readme-images/html.taal.week1.png))" alt="taal">
+
+
+  ik heb dit er in staan maar mag de zin zo lang of is een deel overbodig? 
+  		(<li><a href="https://www.mocomuseum.com/amsterdam/">Amsterdam</a>Link naar amsterdam moco museum pagina u bevind zich nu op de algemene pagina </li>)
+  
+
+  footer
+  Normaal gebruik je classes voor styling en structuur. Zonder deze hulpmiddelen moest ik semantische elementen veel bewuster inzetten om toch een duidelijke opbouw te behouden. Vooral de footer met meerdere blokken was lastiger zonder classes om delen te onderscheiden.
+
+  De footer heeft veel informatie: locaties, informatie, social media, juridische links en adressen. Het was even zoeken hoe ik dit semantisch kon opdelen in <section>s zonder extra classes, zodat het wel duidelijk blijft. Ik twijfel nog wel of ik het niet beter in een nav kan zetten maar dat ga ik een keer vragen.
+  <img src="readme-images/footer.week.1.png)" alt="footer">
 
 
   ### Agenda voor meeting

@@ -41,11 +41,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
-  <img src="(images/home.page.screen.png)" width="375px" alt="Bovenste rand staat het logo en taal, tickets, menu opties. Vederd een video die automatisch afspeelt zonder geluid, wel kan je hem pauzeren. de titel is dat je een locatie kan kiezen en dan op andere paginas verder gaat.">
+  <img src="readme-images/home-page-screen.png" width="375px" alt="Bovenste rand staat het logo en taal, tickets, menu opties. Vederd een video die automatisch afspeelt zonder geluid, wel kan je hem pauzeren. de titel is dat je een locatie kan kiezen en dan op andere paginas verder gaat.">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="tentoonstelling pagina. Met een titel en inleiding, daarna afbeeldingen met titels en het kan je door verwijzen naar nieuwe pagina's met meer informatie.">
+  <img src="readme-images/scherm-contact.JPG" width="375px" alt="contact pagina">
  
 </details>
 
@@ -83,7 +83,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/readme-images/breakdown.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdown.jpg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
@@ -109,7 +109,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
    Bron: https://www.w3schools.com/tags/tag_address.asp
 
   Ik heb mijn website in het Engels. mijn vraag is moet ik " <html lang="nl"> " veranderen naar "<html lang="en">"
-  <img src="readme-images/html.taal.week1.png))" alt="taal">
+  <img src="readme-images/html-taal-week1.png" alt="taal">
 
 
   ik heb dit er in staan maar mag de zin zo lang of is een deel overbodig? 
@@ -120,7 +120,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Normaal gebruik je classes voor styling en structuur. Zonder deze hulpmiddelen moest ik semantische elementen veel bewuster inzetten om toch een duidelijke opbouw te behouden. Vooral de footer met meerdere blokken was lastiger zonder classes om delen te onderscheiden.
 
   De footer heeft veel informatie: locaties, informatie, social media, juridische links en adressen. Het was even zoeken hoe ik dit semantisch kon opdelen in <section>s zonder extra classes, zodat het wel duidelijk blijft. Ik twijfel nog wel of ik het niet beter in een nav kan zetten maar dat ga ik een keer vragen.
-  <img src="readme-images/footer.week.1.png)" alt="footer">
+  <img src="readme-images/footer-week-1.png" alt="footer">
 
 
   ### Agenda voor meeting
